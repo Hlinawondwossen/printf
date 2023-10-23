@@ -8,11 +8,11 @@
 
 int printstr(char *str)
 {
-	int b, count = 0;
+	int i, count = 0;
 
-	for (b = 0; str[b] != '\0'; b++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		printchar(str[b]);
+		printchar(str[i]);
 		count++;
 	}
 	return (count);
